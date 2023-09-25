@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-image: url(../Background/anime4kdark.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.profile-box {
+    text-align: center;
+    margin: 40px;
+    padding: 70px 100px;
+    color: white;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 4px 30px aqua;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid #333;
+}
+
+.menu i{
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.setting {
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.user {
+    width: 120px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 6px;
+    margin-top: 40px;
+}
+
+.profile-bottom {
+    background: white;
+    color: black;
+    padding: 60px 0;
+    margin: 0 -100px -70px -100px;
+    border-radius: 30px;
+}
+
+.profile-box button{
+    background: blue;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px red;
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.profile-box h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.profile-box p {
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.medsos i{
+    width: 30px;
+    margin: 30px 5px;
+    cursor: pointer;
+    color: white;
+}
+
+/* ABOUT ME */
+.about-me {
+    width: 50%;
+    text-shadow: 1px;
+    position: relative;
+    margin: 10px;
+    color: #fff;
+    font-style: italic, bold, stroke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-me-title {
+    text-decoration: underline;
+}
